@@ -1,9 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body>
-            <h1>Css Flex</h1>
-            <p>Flex box model is one-dimensional layout model</p>
-        </body>
+<title>Css Flex</title>
+<style>
+    .d-flex{display: flex;}
+    .spc-between{justify-content: space-between}
+    .flx-start{justify-content: flex-start;}
+    .flx-end{justify-content:flex-end;}
+    .flex-center{justify-content: center;}
+    .spc-around{justify-content: space-around;}
+    .spc-eve{justify-content: space-evenly;}
+    .boxes{border:1px solid #ccc;width:18%; align-items: center;display: flex; justify-content: center;min-height: 200px;}
+    .width-100{width:100%}
+</style>
     </head>
+    <body>
+        <h1>Css Flex</h1>
+        <p>Flex box model is one-dimensional layout model</p>
+
+        <code>Here i am using flex box with property <em>justify-content:space-between</em>items will have space between them</code>
+        <div class="d-flex width-100 spc-between">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+
+
+        <h1>Css Flex </h1>
+        <code>flex-start:Items are positioned at the beginning of the container</code>
+        <div class="d-flex width-100 flx-start">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+
+        <h1>Css Flex </h1>
+        <code>flex-end:Items are positioned at the end of the container	</code>
+        <div class="d-flex width-100 flx-end">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+
+        <h1>Css Flex </h1>
+        <code>center:Items are positioned at the center of the container	</code>
+        <div class="d-flex width-100 flex-center">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+
+        <h1>Css Flex </h1>
+        <code>space-around:Items are positioned at the center of the container	</code>
+        <div class="d-flex width-100 spc-around">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+
+        <h1>Css Flex </h1>
+        <code>space-evenly:Items will have equal space around them	</code>
+        <div class="d-flex width-100 spc-eve">
+            <div class="boxes">Box 1</div>
+            <div class="boxes">Box 2</div>
+            <div class="boxes">Box 3</div>
+            <div class="boxes">Box 4</div>
+            <div class="boxes">Box 5</div>
+        </div>
+      
+    </body>
 </html>
